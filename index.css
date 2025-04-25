@@ -1,0 +1,82 @@
+@import url('./css/01-header.css');
+@import url('./css/02-banner.css');
+@import url('./css/03-button.css');
+@import url('./css/04-about-event.css');
+@import url('./css/05-top-leaders.css');
+@import url('./css/06-schedule.css');
+@import url('./css/07-map.css');
+@import url('./css/08-footer.css');
+@import url('./css/09-slider.css');
+
+body {
+  background: #fafafa;
+  font-family: 'DINPro';
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box-center,
+.box-center-banner {
+  max-width: 1326px;
+  margin: 0px auto;
+}
+
+@media (max-width: 1326px) {
+  .box-center {
+    max-width: 1326px;
+    margin: 0px;
+    padding: 0px 16px;
+  }
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h3 {
+  margin: 0px;
+}
+@font-face {
+  font-family: 'DINPro';
+  src: url('./../font/DINPro-Light.ttf') format('ttf'),
+    url('./../font/DINPro-Light.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('./../font/DINPro.ttf') format('ttf'), url('./../font/DINPro.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('./../font/DINPro-Medium.ttf') format('ttf'),
+    url('./../font/DINPro-Medium.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('./../font/DINPro-Bold.ttf') format('ttf'),
+    url('./../font/DINPro-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('./../font/DINPro-Black.ttf') format('ttf'),
+    url('./../font/DINPro-Black.woff') format('woff');
+  font-weight: 800;
+}
