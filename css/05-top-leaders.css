@@ -1,0 +1,168 @@
+.section-top-leaders {
+  padding: 120px 0px 0px 0px;
+}
+
+.section-top-leaders h2 {
+  font-size: 50px;
+  font-weight: 700;
+  max-width: 712px;
+  margin: 0px auto;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #15a6e1 0%,
+    #00caf4 15%,
+    #00caf4 31%,
+    #6789e0 50%,
+    #ef786f 71%,
+    #eb5c54 81%,
+    #e8423b 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0px 0px 24px 0px;
+}
+
+.section-top-leaders h3 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  padding: 56px 0px 32px 0px;
+}
+
+.top-leaders__container {
+  width: 1103px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 76px;
+}
+
+.top-leader {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+}
+
+.top-leader img {
+  display: block;
+  height: 445px;
+  object-fit: cover;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.name-gradient {
+  background: linear-gradient(
+    90deg,
+    #15a6e1 0%,
+    #00caf4 15%,
+    #00caf4 31%,
+    #6789e0 50%,
+    #ef786f 71%,
+    #eb5c54 81%,
+    #e8423b 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-leader-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px 0px 0px 0px;
+}
+
+.top-leader-profession {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #a0a8b6;
+  padding: 8px 0px 0px 0px;
+}
+
+@media (max-width: 1150px) {
+  .top-leaders__container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .top-leader.laevskiy {
+    width: 315px;
+    height: 530px;
+  }
+
+  .top-leader.laevskiy img {
+    height: 435px;
+  }
+
+  .top-leader {
+    width: 250px;
+    height: auto;
+  }
+
+  .top-leader img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 620px) {
+  .section-top-leaders h2 {
+    font-size: 24px;
+  }
+
+  .top-leaders__container {
+    gap: 16px;
+  }
+
+  .section-top-leaders h3 {
+    font-size: 24px;
+    padding: 0px 0px 32px 0px;
+  }
+
+  .top-leader-name {
+    font-size: 18px;
+  }
+
+  .top-leader-profession {
+    font-size: 14px;
+  }
+  .top-leader.laevskiy img {
+    width: 100%;
+    height: 435px;
+  }
+
+  .top-leader img {
+    height: 215px;
+  }
+  .top-leader {
+    width: 180px;
+    height: auto;
+    align-items: center;
+  }
+  .top-leader img {
+    height: 215px;
+    width: 160px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .section-top-leaders {
+    padding: 80px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .top-leader {
+    width: 155px;
+  }
+}

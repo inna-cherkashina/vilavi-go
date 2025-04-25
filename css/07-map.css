@@ -1,0 +1,54 @@
+.section-map-description {
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 880px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.section-map-description p {
+  margin: 0px;
+}
+
+.map-img {
+  max-width: 880px;
+  object-fit: cover;
+  margin: 0px auto;
+  display: block;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+@media (max-width: 930px) {
+  .section-map {
+    padding: 56px 0px 0px 0px;
+  }
+  .map-img {
+    width: 100%;
+  }
+
+  .section-map-description {
+    width: 100%;
+  }
+
+  .gradient-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-map {
+    padding: 56px 0px 0px 0px;
+  }
+
+  .map-img {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+}

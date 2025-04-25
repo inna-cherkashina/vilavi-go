@@ -1,0 +1,141 @@
+header {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  z-index: 100;
+}
+
+.desktop-header__container {
+  padding: 14px 0px;
+}
+
+.header-flex__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: block;
+}
+
+.header-menu-flex__container {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+}
+
+.list-item a {
+  color: #000;
+  font-weight: 600;
+}
+.mobile-disactive {
+  transform: translateX(800px);
+  -webkit-transform: translateX(800px);
+  -moz-transform: translateX(800px);
+  -ms-transform: translateX(800px);
+  -o-transform: translateX(800px);
+}
+
+.mobile-active {
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+}
+.mobile-menu {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
+
+.burger-close {
+  display: none;
+}
+
+/* -----Шапка для мобильных----- */
+
+@media (max-width: 666px) {
+  .header-flex__container {
+    padding: 16px;
+  }
+  .burger-close {
+    display: block;
+    cursor: pointer;
+  }
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .desktop-header__container {
+    padding: 0px 0px;
+  }
+
+  .header-mobile-menu__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-logo {
+    display: block;
+    width: 50px;
+  }
+
+  .header-menu-flex__container {
+    display: none;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    padding: 0px 16px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+  }
+
+  .mobile-gradient-link {
+    width: max-content;
+    font-weight: 700;
+    display: block;
+    background: linear-gradient(
+      90deg,
+      #15a6e1 0%,
+      #00caf4 15%,
+      #00caf4 31%,
+      #6789e0 50%,
+      #ef786f 71%,
+      #eb5c54 81%,
+      #e8423b 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .mobile-icons__container {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .burger-close {
+    cursor: pointer;
+  }
+
+  .disactive {
+    display: none;
+  }
+}

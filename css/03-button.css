@@ -1,0 +1,40 @@
+.button-container {
+  position: relative;
+  width: max-content;
+}
+
+.button-gradient {
+  position: relative;
+  z-index: 10;
+  background: linear-gradient(
+    90deg,
+    #15a6e1 0%,
+    #00caf4 15%,
+    #00caf4 31%,
+    #6789e0 50%,
+    #ef786f 71%,
+    #eb5c54 81%,
+    #e8423b 100%
+  );
+  padding: 2px 2px 2px 2px;
+  border-radius: 100px;
+  display: flex;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.button {
+  background: #fff;
+  padding: 8px 36px 12px 36px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
